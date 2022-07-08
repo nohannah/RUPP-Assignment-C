@@ -13,9 +13,18 @@ int main() {
     // scanf("%c",&chr);
     // printf("you enter %c",chr);
     // return 0;
-    int a;
-    float b;
-    printf ("Enter an interger and then a float:");
-    scanf ("%d%f",&a,&b);
-    printf("you enteres %d and %g", a,b);
+    // int a;
+    // float b;
+    // printf ("Enter an interger and then a float:");
+    // scanf ("%d%f",&a,&b);
+    // printf("you enteres %d and %g", a,b);
+    int a =10,b=18;
+    printf("a+b %d\n", a+b );
+    printf("a-b %d\n", a-b );
+    printf("a*b %d\n", a*b );
+    printf("a/b %d\n", a/b );
+    printf("ab %d\n", a%b );
+    return 0;
+
+
 }
